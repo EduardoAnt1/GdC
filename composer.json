@@ -1,0 +1,26 @@
+{
+    "name": "eduar/php_pro",
+    "description": "php-profissional",
+    "authors": [
+        {
+            "name": "Eduardo Antunes",
+            "email": "eduardoantunes.2001@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files":[
+            "app/helpers/constants.php",
+            "app/router/router.php",
+            "app/core/controller.php",
+            "app/database/connect.php",
+            "app/database/fetch.php",
+            "app/database/usuario/fetch.php",
+            "app/database/cliente/fetch.php",
+            "app/helpers/redirect.php"
+        ],
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}
